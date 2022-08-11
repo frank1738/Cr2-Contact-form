@@ -297,16 +297,11 @@
             like to chat please get in touch.</b
           >
         </p>
-        <form
-          class="form"
-          action="https://formspree.io/f/maykyqpv"
-          method="POST"
-        >
+        <form class="form" method="POST">
           <input
             type="text"
             class="user-input"
             placeholder="Full name"
-            maxlength="30"
             name="user-name"
           />
           <input
@@ -314,6 +309,7 @@
             class="user-input"
             placeholder="Email address"
             name="user-email"
+            required
           />
           <textarea
             cols="30"
@@ -321,6 +317,8 @@
             class="text"
             placeholder="Enter text here"
             name="user-messege"
+            maxlength="500"
+            required
           ></textarea>
           <button type="submit" class="btn">Get in touch</button>
         </form>
