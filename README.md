@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
 # Contact form
+
+- The is trial project for a contact form of a portfolio
 
 ## Built With
 
